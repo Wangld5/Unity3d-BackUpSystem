@@ -21,7 +21,6 @@ public class equipment : MonoBehaviour {
 	public void On_equip_Button() {
 		int MouseType = gsm.GetMouse().GetMouseType();
 		if (equip_image.sprite == weapon && MouseType == 0) {
-			Debug.Log("equip: " + mouse_type);
 			equip_image.sprite = UIMask;
 			gsm.GetMouse().SetMouseType(mouse_type);
 		} else if (equip_image.sprite == UIMask) {

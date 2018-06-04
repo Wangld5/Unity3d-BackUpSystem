@@ -40,7 +40,6 @@ public class mouse_image : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		// Debug.Log(mouse_type);
 		if (mouse_type == 0) {
 			Mouse_image.sprite = none;
 			Mouse_image.color = None;
@@ -54,11 +53,7 @@ public class mouse_image : MonoBehaviour {
 				Mouse_image.sprite = shoes;
 			Vector3 mp = Input.mousePosition;
 			Vector3 mmp = cam.ScreenToWorldPoint(mp + new Vector3(0, 0, 350));
-			//transform.position = new Vector3(mp.x - 450, mp.y - 200, 0);
 			transform.position = new Vector3(mmp.x, mmp.y, 0);
-
-			// Debug.Log("mp: " + mp);
-			// Debug.Log("mmp: " + mmp);
 		}
 
 	}

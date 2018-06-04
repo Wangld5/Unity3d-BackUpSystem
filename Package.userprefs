@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mouse_image.cs">
     <Files>
-      <File FileName="Assets\mouse_image.cs" Line="18" Column="23" />
+      <File FileName="Assets\mouse_image.cs" Line="53" Column="32" />
       <File FileName="Assets\ActionManager.cs" Line="1" Column="1" />
       <File FileName="Assets\backPack.cs" Line="5" Column="20" />
-      <File FileName="Assets\equipment.cs" Line="1" Column="1" />
+      <File FileName="Assets\equipment.cs" Line="23" Column="56" />
       <File FileName="Assets\TitWindow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
